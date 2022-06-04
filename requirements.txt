@@ -1,0 +1,62 @@
+anyio @ file:///home/runner/.cache/pypoetry/artifacts/a6/04/10/40e613421c005158d72c1882641420b527104940f48c0d5ad24674f113/anyio-3.6.1-py3-none-any.whl
+backports.entry-points-selectable==1.1.1
+CacheControl==0.12.10
+cachy==0.3.0
+certifi==2021.10.8
+cffi==1.15.0
+charset-normalizer==2.0.7
+cleo==0.8.1
+clikit==0.6.2
+crashtest==0.3.1
+cryptography==35.0.0
+debugpy==1.2.1
+distlib==0.3.3
+docopt==0.6.2
+fastapi @ file:///home/runner/.cache/pypoetry/artifacts/c5/a7/8d/b5722a01af3cdb789bc4da9b9ef570cb0d6990e787ded9960c0cef49bb/fastapi-0.78.0-py3-none-any.whl
+filelock==3.3.2
+future==0.18.2
+html5lib==1.1
+idna==3.3
+importlib-metadata==3.10.1
+jedi==0.18.1
+jeepney==0.7.1
+keyring==21.8.0
+lockfile==0.12.2
+msgpack==1.0.2
+numpy @ file:///home/runner/.cache/pypoetry/artifacts/0a/f1/63/4e86e206dd78b5ffa1d0b33299c8275c3e1a2411fac9d63320ce69de5f/numpy-1.22.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+packaging==20.9
+parso==0.8.3
+pastel==0.2.1
+pexpect==4.8.0
+pipreqs-amasad==0.4.10
+pkginfo==1.7.1
+platformdirs==2.4.0
+pluggy==1.0.0
+poetry==1.1.11
+poetry-core==1.0.7
+ptyprocess==0.7.0
+pycparser==2.21
+pydantic @ file:///home/runner/.cache/pypoetry/artifacts/b7/3e/e5/b89a341144bc104aa6be2226d09900e220c001eb175b9aac2d62f150ec/pydantic-1.9.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+pyflakes==2.1.1
+pylev==1.4.0
+pyparsing==3.0.5
+python-lsp-jsonrpc==1.0.0
+python-lsp-server==1.4.1
+requests==2.26.0
+requests-toolbelt==0.9.1
+rope==0.18.0
+SecretStorage==3.3.1
+shellingham==1.4.0
+six==1.16.0
+sniffio @ file:///home/runner/.cache/pypoetry/artifacts/e3/a1/3d/81ccfd6d739aae7ee7af1f1eded250231c96abb87414dadb39920a3761/sniffio-1.2.0-py3-none-any.whl
+starlette @ file:///home/runner/.cache/pypoetry/artifacts/6a/15/2d/8e29b5acdbc6c3e3b4c46d79deb805a934f071aa518907efb4696bc98f/starlette-0.19.1-py3-none-any.whl
+toml==0.10.2
+tomlkit==0.7.2
+typing-extensions @ file:///home/runner/.cache/pypoetry/artifacts/a8/b4/01/1f40be8500ba5ac107df036e7acb48ffeb51eab3ed6a2c51eee09e0e48/typing_extensions-4.2.0-py3-none-any.whl
+ujson==5.3.0
+urllib3==1.26.7
+virtualenv==20.10.0
+webencodings==0.5.1
+yapf==0.31.0
+yarg==0.1.9
+zipp==3.4.1
