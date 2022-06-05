@@ -7,7 +7,7 @@ class TokenSchema(BaseModel):
     
     
 class TokenPayload(BaseModel):
-    sub: UUID = None
+    sub: str = None
     exp: int = None
 
 
@@ -19,3 +19,7 @@ class UserAuth(BaseModel):
 class UserOut(BaseModel):
     id: UUID
     email: str
+
+
+class SystemUser(UserOut):
+    password: str

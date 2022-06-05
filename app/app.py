@@ -1,7 +1,7 @@
 from fastapi import FastAPI, status, HTTPException, Depends
 from fastapi.security import OAuth2PasswordRequestForm
 from fastapi.responses import RedirectResponse
-from app.schemas import UserOut, UserAuth, TokenSchema
+from app.schemas import UserOut, UserAuth, TokenSchema, SystemUser
 from replit import db
 from app.utils import (
     get_hashed_password,
@@ -10,6 +10,7 @@ from app.utils import (
     verify_password
 )
 from uuid import uuid4
+from app.deps import get_current_user
 
 app = FastAPI()
 
@@ -56,3 +57,7 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends()):
         "access_token": create_access_token(user['email']),
         "refresh_token": create_refresh_token(user['email']),
     }
+
+@app.get('/me', summary='Get details of currently logged in user', response_model=UserOut)
+async def get_me(user: SystemUser = Depends(get_current_user)):
+    return user
