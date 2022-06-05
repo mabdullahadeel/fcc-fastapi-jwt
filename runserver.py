@@ -7,5 +7,5 @@ if __name__ == "__main__":
         host="0.0.0.0",
         port=8080,
         log_level="info",
-        reloadT=True
+        reload=True
     )
